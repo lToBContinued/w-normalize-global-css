@@ -1,0 +1,23 @@
+{
+  "name": "w-normalize-global-css",
+  "version": "1.0.1",
+  "description": "结合了 normalize.css 和默认样式的全局 CSS 重置包",
+  "main": "index.css",
+  "keywords": [
+    "css",
+    "reset",
+    "normalize"
+  ],
+  "author": "lToBContinued",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lToBContinued/w-normalize-global-css.git"
+  },
+  "files": [
+    "index.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
