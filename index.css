@@ -6,13 +6,12 @@
    ========================================================================== */
 
 /**
- * 1. 统一行高为1.5
+ * 1. 统一行高为1.15（Chrome/Firefox规范）
  * 2. 阻止iOS横竖屏切换时的字体缩放
  * 3. 全局应用标准盒子模型
  */
 html {
-  font-size: 12px;
-  line-height: 1.5; /* 1 */
+  line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
@@ -49,7 +48,6 @@ time, mark, audio, video {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, BlinkMacSystemFont, Helvetica Neue, Arial, PingFang SC, PingFang TC, PingFang HK, Microsoft Yahei, Microsoft JhengHei;
 }
 
 /**
@@ -60,8 +58,13 @@ main {
 }
 
 /* 标题样式标准化 */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  font-weight: 400;
 }
 
 /* ==========================================================================
@@ -120,7 +123,7 @@ code, kbd, samp {
 
 /* 小号字体 */
 small {
-  font-size: 12px;
+  font-size: 80%;
 }
 
 /* 上下标样式 */
