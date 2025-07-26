@@ -1,6 +1,6 @@
 {
   "name": "w-normalize-global-css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "结合了 normalize.css 和默认样式的全局 CSS 重置包",
   "main": "index.css",
   "keywords": [
